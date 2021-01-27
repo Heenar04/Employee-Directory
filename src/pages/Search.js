@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import API from "../utils/API"
 import SearchBar from "../components/searchbar"
 import SearchResults from "../components/searchresults"
