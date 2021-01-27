@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,FormControl,InputGroup, Button } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSync } from '@fortawesome/free-solid-svg-icons'
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faSync } from '@fortawesome/free-solid-svg-icons'
+import './search.css';
 function SearchBar(props){
     return(
         <div className="searchbar">
@@ -15,7 +15,7 @@ function SearchBar(props){
                 className="inputFull"
               />
                   <InputGroup.Append>
-                    <Button variant="secondary" onClick={props.handleRefresh}><FontAwesomeIcon icon={faSync} /></Button>
+                    <Button variant="secondary" onClick={props.handleRefresh}></Button>
                   </InputGroup.Append>
             </InputGroup>
             </Container>

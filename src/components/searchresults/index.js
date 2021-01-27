@@ -1,7 +1,7 @@
 import React from "react"
 import { Container,Table } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faImage } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faImage } from '@fortawesome/free-solid-svg-icons'
 import './results.css'
 
 function SearchResults(props){
@@ -11,7 +11,7 @@ function SearchResults(props){
                 <Table striped>
                     <thead>
                         <tr>
-                            <th><FontAwesomeIcon icon={faImage} /></th>
+                           
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone</th>
