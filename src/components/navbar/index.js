@@ -1,8 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faUsers } from '@fortawesome/free-solid-svg-icons'
+
 
 function NavBar() {
     return (
@@ -10,8 +9,8 @@ function NavBar() {
             <div className="row">
                 <div className="col-md-12">
                     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                        <Navbar.Brand href="#home">
-                             Employee Directory
+                        <Navbar.Brand href="#home"  >
+                             Employee Directory 
                                     </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

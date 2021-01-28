@@ -3,6 +3,6 @@ import axios from "axios";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     getUser: function(){
-        return axios.get('https://randomuser.me/api/?results=150&nat=us');
+        return axios.get('https://randomuser.me/api/?results=70&nat=us');
     }
 }
